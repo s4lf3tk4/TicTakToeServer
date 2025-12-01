@@ -33,13 +33,18 @@
 
         Структура зависимостей:
 ServerMain (независимый)
+
     ↓ использует
+
 TicTacToeServer (зависит от всех ниже)
     ↓ содержит
+
 ClientHandler (зависит от GameSession)
     ↓ использует
+
 GameSessionManager (независимый)
     ↓ управляет
+
 GameSession (независимый)
         
 
